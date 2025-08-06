@@ -16,12 +16,7 @@ vim.cmd[[colorscheme nord]]
 --Keys
 vim.keymap.set('n', '<leader>f', '<cmd>FzfLua files<Cr>')
 vim.keymap.set('n', '<leader>b', '<cmd>FzfLua buffers<Cr>')
--- vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
--- vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
--- vim.keymap.set('n', '<leader>k', vim.lsp.buf.hover)
--- vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition)
--- vim.keymap.set('n', '<leader>a', vim.lsp.buf.code_action)
--- vim.keymap.set('n', '<leader>r', vim.lsp.buf.rename)
+vim.keymap.set('n', '<leader>g', '<cmd>FzfLua grep<Cr>')
 
 
 vim.cmd[[set completeopt+=menuone,noselect,popup]]
